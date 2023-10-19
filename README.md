@@ -2,7 +2,7 @@
 
 ---
 
-Apresento-lhes uma Pokedex diferente. A Pokedex interativa 😅
+Apresento-lhes uma Pokedex diferente. A Pokedex interativa 😅😅
 
 Nesta Pokedex o usuário clica, e vai verificando o pokemon capturado.
 ---
