@@ -19,8 +19,8 @@ let type;
 function switchImageAndTitle (){
     pokeballOpen.setAttribute("src", "./assets/pokebalopen.png");
     
-
-    setTimeout (switchPokeball, 900)
+    
+    setTimeout (switchPokeball, 1500)
     
 }
 
@@ -53,6 +53,7 @@ const getPokemon = async () => {
 function switchPokeball () {
     pokeballClosed.setAttribute("src", "./assets/Poké_Ball_icon.svg.png");
     pokeballClosed.classList.add('pokeball')
+    switchTitle.innerHTML = 'Click novamente e descubra um novo Pokemòn!'
     return pokeballClosed;
 }
 
