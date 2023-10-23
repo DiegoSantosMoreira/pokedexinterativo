@@ -36,7 +36,7 @@ body{
 #pokeball{
     width: 300px;
     height: 255px;
-    border-radius: 25px;
+
 }
 
 /* .img {
@@ -55,12 +55,10 @@ body{
 
 #pokemon-image{
     width: 150px;
-    height: 200px;
+    height: 250px;
     padding: 1px;
     
 }
-
-
 
 #show-pokemon{
     border: 1px solid #fff;
@@ -72,6 +70,7 @@ body{
     align-items: center;
     
 }
+
 
 /* POKEMON BACKGROUND CLASS */
 
@@ -146,3 +145,5 @@ body{
 .fairy {
     background-color: #fd9efc;
 }
+
+/* RESPONSIVIDADE */
