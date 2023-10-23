@@ -10,7 +10,7 @@ const typePokemonFromAPI = document.querySelector("#type");
 const imagePokemonFromAPI = document.querySelector("#pokemon-image");
 const pokemonContainer = document.getElementById("#show-pokemon");
 
-let backPoke = document.querySelector('#pokemon')
+let backPoke = document.querySelector('#show-pokemon')
 
 let type;
 
@@ -36,7 +36,7 @@ const getPokemon = async () => {
             switchTitle.innerText = 'Você capturou ' + data.name;
             namePokemonFromAPI.innerText =  'Name: ' + data.name;
             typePokemonFromAPI.innerText =  'Type: ' + data.types.map(typeinfo => typeinfo.type.name).join(' | ');
-            // imagePokemonFromAPI.setAttribute("src", `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${data.id}.png`)
+            
             imagePokemonFromAPI.setAttribute("src", `https://unpkg.com/pokeapi-sprites@2.0.2/sprites/pokemon/other/dream-world/${data.id}.svg`)
 
             console.log(data)
